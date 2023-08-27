@@ -1,0 +1,46 @@
+@media screen and (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+  nav {
+    justify-content: center;
+    align-items: center;
+  }
+  .links {
+    margin-right: 0%;
+    padding: 0;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .links i {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    background-color: blue;
+  }
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  body {
+    background-color: orange;
+  }
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: antiquewhite;
+  }
+}
