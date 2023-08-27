@@ -140,6 +140,10 @@
     font-weight: 600;
     font-size: 1.5rem;
   }
+  .diagonal-div {
+    width: 70%;
+    min-width: 100px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -156,5 +160,9 @@
   }
   .links i {
     margin: auto;
+  }
+  .diagonal-div {
+    width: 100%;
+    min-width: 100px;
   }
 }
