@@ -170,6 +170,10 @@
     width: 70%;
     min-width: 100px;
   }
+  .banner-1 {
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../assets/main-banner.png);
+  }
   .banner-text {
     display: flex;
     flex-direction: column;
@@ -210,6 +214,15 @@
     gap: 20px;
     color: white;
     justify-content: flex-start;
+  }
+  .featured-container {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
   }
 }
 
