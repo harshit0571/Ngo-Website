@@ -10,6 +10,10 @@
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    position: sticky;
+    z-index: 50;
+    height: 80px;
+
     margin-top: 1rem;
   }
 
@@ -57,9 +61,23 @@
     color: var(--grey);
     font-weight: 600;
   }
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    position: relative;
+    width: 50%;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+    margin-left: 6%;
+  }
 }
 
 @media screen and (max-width: 786px) {
+  * {
+    font-size: 14px;
+  }
   .links {
     display: flex;
     justify-content: space-evenly;
@@ -72,6 +90,9 @@
     position: relative;
 
     margin-right: auto;
+    position: sticky;
+    z-index: 50;
+    height: 60px;
     margin-top: 1rem;
   }
 
@@ -102,6 +123,10 @@
   }
   .header-links {
     display: none;
+    margin-top: 0;
+  }
+  .header-links ul {
+    margin-top: 0;
   }
   .ham-btn {
     display: inline-block;
@@ -115,6 +140,7 @@
   }
   .active {
     display: block;
+    margin-top: 0;
     width: 100%;
     background-color: var(--grey);
     color: #ffff;
@@ -144,9 +170,23 @@
     width: 70%;
     min-width: 100px;
   }
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    position: relative;
+    width: 80%;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+    margin-left: 6%;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  * {
+    font-size: 12px;
+  }
   nav {
     justify-content: center;
     align-items: center;
@@ -164,5 +204,16 @@
   .diagonal-div {
     width: 100%;
     min-width: 100px;
+  }
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    position: relative;
+    width: 90%;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+    margin-left: 6%;
   }
 }
