@@ -375,8 +375,8 @@ span {
   margin-top: 60px;
   width: 100%;
   background-color: var(--red);
-  background-image: url(../assets/back.png);
-  height: 400px;
+  background-image: url(../assets/testimonials.png);
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -385,6 +385,9 @@ span {
 .testimonials h1 {
   font-size: 2rem;
   color: white;
+  -webkit-text-stroke: 2px white;
+  font-weight: 900;
+  margin-bottom: 30px;
 }
 .dialog {
   width: 80%;
@@ -416,7 +419,9 @@ span {
 .dialog span {
   font-size: 1.5rem;
   z-index: 3;
+  font-weight: bolder;
 }
+
 .dialog img {
   position: absolute;
   left: 30px;
@@ -426,14 +431,42 @@ span {
   height: 100px;
   position: absolute;
   bottom: 0;
-  left: 30%;
+  left: 32%;
   background-color: white;
   transform: rotate(-45deg);
   z-index: -10;
 }
-.pics {
+.test-photos {
   display: flex;
+  margin-top: 10px;
+  gap: 15px;
 }
-.pics img {
+.test-photos img {
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
+  border: 7px solid white;
+}
+
+.volunteer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.volunteer h1 {
+  color: var(--red);
+  font-weight: 900;
+}
+.volunteer p {
+  color: black;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.volunteer p.title {
+  color: #2e2e2f;
+  font-size: 2rem;
 }
