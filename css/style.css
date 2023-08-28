@@ -2,6 +2,7 @@
   --grey: #2e2e2f;
   --red: #f13c4a;
   --white: #ffffff;
+  --blue: #021422;
 }
 
 * {
@@ -469,4 +470,72 @@ span {
 .volunteer p.title {
   color: #2e2e2f;
   font-size: 2rem;
+}
+
+footer {
+  width: 100%;
+  margin-top: 120px;
+  background-color: var(--blue);
+  height: 400px;
+  position: relative;
+}
+.contact {
+  width: 80%;
+  position: absolute;
+  height: 100px;
+  background-image: url(../assets/back.png);
+  left: 10%;
+  top: -50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.contact i:first-child {
+  font-size: 3rem;
+}
+.contact P.question {
+  font-size: 1.2rem;
+  width: 25%;
+}
+.contact P.number {
+  font-size: 2.5rem;
+  -webkit-text-stroke: 1.4px var(--white);
+  word-spacing: 10;
+}
+
+.contact-1 {
+  display: flex;
+  width: 50%;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-2 {
+  display: flex;
+  flex: 1;
+  width: 50%;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.contact-2 div {
+  width: 50%;
+  position: relative;
+}
+.contact-2 input {
+  width: 100%;
+  padding: 7px;
+  padding-left: 35px;
+  border-radius: 100px;
+}
+
+#mail {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  color: gray;
+  left: 10px;
+  transform: translateY(-65%);
+  position: absolute;
 }
