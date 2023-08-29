@@ -75,6 +75,7 @@
 
   .contact {
     width: 100%;
+    position: static;
     left: 0;
   }
   .contact i:first-child {
@@ -294,6 +295,36 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 35px;
+  }
+  .footer-content {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+    flex: 1;
+
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+  .footer-about {
+    width: 80%;
+    min-width: 250px;
+    text-align: center;
+  }
+  .footer-links {
+    width: 80%;
+    text-align: center;
+  }
+  .gallery {
+    width: 80%;
+    text-align: center;
+  }
+  .gal-container {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
   }
 }
 
