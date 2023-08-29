@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
   $(".ham-btn").click(function () {
     $(".header-links").toggleClass("active");
 
@@ -8,4 +9,9 @@ $(document).ready(function () {
       $(".ham-btn").html(`<i class="fa fa-solid fa-bars"></i>`);
     }
   });
+
+  $("#call").click(function(){
+    
+  })
 });
+
