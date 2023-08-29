@@ -199,9 +199,8 @@
     width: 80%;
     gap: 20px;
     color: white;
-    justify-content: flex-start;
+
     margin-left: 6%;
-    margin-top: 20%;
   }
   .about-us-1 {
     display: none;
@@ -350,6 +349,9 @@
     width: 100%;
     min-width: 100px;
   }
+  .banner-1 {
+    justify-content: flex-start;
+  }
   .banner-text {
     display: flex;
     flex-direction: column;
@@ -357,10 +359,14 @@
     position: relative;
     width: 90%;
     gap: 20px;
+
     color: white;
-    justify-content: center;
+    justify-content: flex-start;
+
     margin-left: 6%;
+    margin-top: 20%;
   }
+
   .dialog img {
     position: absolute;
     top: 20%;
