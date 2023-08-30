@@ -390,6 +390,7 @@
     min-width: 100px;
   }
   .banner-1 {
+    height: 550px;
     justify-content: flex-start;
   }
   .banner-text {
