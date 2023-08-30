@@ -468,7 +468,11 @@
   .gal-container {
     display: none;
   }
+  .gallery {
+    width: 80%;
+  }
   .gal-container-active {
     display: flex;
+    flex-direction: column;
   }
 }
