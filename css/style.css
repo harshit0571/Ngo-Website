@@ -30,6 +30,23 @@ nav {
 }
 .links i {
   margin-right: 1.5rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.i-fb:hover {
+  color: rgb(0, 68, 255);
+}
+.i-tw:hover {
+  color: rgb(0, 166, 255);
+}
+.i-ln:hover {
+  color: rgb(0, 68, 255);
+}
+.i-vn:hover {
+  color: rgb(0, 255, 94);
+}
+.i-ig:hover {
+  color: rgb(255, 0, 136);
 }
 .ham-btn {
   display: none;
@@ -67,6 +84,7 @@ header {
 .logo-text {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 .logo-text p {
   font-size: 1.2rem;
@@ -93,12 +111,17 @@ header {
 }
 .header-links li {
   list-style: none;
+  transition: 0.3 ease-in-out;
 }
 .header-links a {
   transition: 0.3 ease-in-out;
   text-decoration: none;
   color: var(--grey);
   font-weight: 600;
+}
+.header-links a:hover {
+  color: var(--red);
+  text-decoration: underline;
 }
 
 .banner-1 {
@@ -160,6 +183,12 @@ button {
   padding-bottom: 8px;
   color: white;
   border-radius: 50px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: black;
 }
 .banner-heading-1 {
   font-size: 3rem;
@@ -220,6 +249,10 @@ span {
   justify-content: center;
   box-shadow: 0px 0px 30px rgba(165, 165, 165, 0.5);
   align-items: center;
+  transition: 0.5s ease-in-out;
+}
+.help-img:hover {
+  box-shadow: 0px 0px 30px var(--red);
 }
 .help-img img {
   height: 150px;
@@ -452,6 +485,10 @@ span {
   height: 70px;
   border-radius: 50%;
   border: 7px solid white;
+  transition: 0.5s ease-in-out;
+}
+.test-photos img:hover {
+  border: 7px solid var(--grey);
 }
 
 .volunteer {
@@ -674,10 +711,7 @@ i.three {
   color: white;
 }
 
-/* hover */
-
-.header-links a:hover {
-  text-decoration: underline;
-  color: var(--red);
-  transition: 0.5 ease-in-out;
+/* global */
+li {
+  cursor: pointer;
 }

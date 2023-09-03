@@ -183,6 +183,15 @@
     padding: 30px;
     border: 1px solid white;
   }
+  .header-links li:hover {
+    background-color: white;
+    border: 1px solid white;
+  }
+  .header-links li:hover a {
+    color: var(--red);
+    border: 1px solid white;
+  }
+
   .header-links a {
     text-decoration: none;
     color: white;
@@ -478,5 +487,8 @@
   }
   .contact-btn {
     margin-bottom: 40px;
+  }
+  .banner-heading-3 {
+    width: 80%;
   }
 }
