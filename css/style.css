@@ -619,6 +619,9 @@ footer {
 .footer-links li {
   padding: 5px;
 }
+h2.links {
+  justify-content: flex-start;
+}
 .gallery {
   display: flex;
   flex-direction: column;
