@@ -186,6 +186,7 @@ button {
   border-radius: 50px;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  outline: none;
 }
 button:hover {
   background-color: white;
