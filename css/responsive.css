@@ -374,6 +374,9 @@
   .contact-ad {
     margin-left: 0;
   }
+  h2.links {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
